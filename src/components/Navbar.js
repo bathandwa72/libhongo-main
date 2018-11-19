@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => (
-  <nav className="navbar navbar-expand-sm">
+  <nav className="navbar navbar-expand-md navbar-light">
     <a className="navbar-brand">Libhongo Langa</a>
     <button
       className="navbar-toggler"
