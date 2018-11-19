@@ -1,3 +1,9 @@
+/* Home/landing page */
+
+.homeContainer {
+    height: 100vh;
+}
+
 span.landingContent {
     position: absolute;
     top: 40%;
@@ -8,6 +14,59 @@ span.landingContent {
 
 button.btn.btn-primary {
     margin: 0.3rem;
+}
+
+@media (max-width: 575px){
+    .homeContainer {
+        background-image: url('./assets/rawpixel-558599-unsplash.jpg');
+        background-position: 78% 10%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    span.landingContent {
+        position: absolute;
+        top: 20%;
+        text-align: center;
+        left: 5vw;
+        right: 5vw;
+    }
+}
+
+@media (max-width: 767.98px){
+    .homeContainer {
+        background-image: url('./assets/rawpixel-558599-unsplash.jpg');
+        background-position: 78% 10%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    span.landingContent {
+        position: absolute;
+        top: 20%;
+        text-align: center;
+        left: 5vw;
+        right: 5vw;
+    }
+}
+
+@media (min-width: 768px){
+    .homeContainer {
+        background-image: url('./assets/rawpixel-558599-unsplash.jpg');
+        background-position: 60% 10%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+/* Portfolio page */
+
+.portfolioContainer {
+    height: 100vh;
+    background-image: linear-gradient(to left, #d0d0d0, #dadadc, #e5e4e7, #efeef3, #faf8ff);
+}
+
+/* Resume page */
+
+.resumeContainer {
+    background-image: linear-gradient(to left, #d0d0d0, #dadadc, #e5e4e7, #efeef3, #faf8ff);
 }
 
 .row {
@@ -21,4 +80,18 @@ button.btn.btn-primary {
     h3 {
         font-size: 1.25rem !important;
     }
+}
+
+/* Contact page */
+
+.contactContainer {
+    height: 100vh;
+    background-image: linear-gradient(to left, #d0d0d0, #dadadc, #e5e4e7, #efeef3, #faf8ff);
+}
+
+form {
+    position: absolute;
+    top: 20vh;
+    left: 0vw;
+    right: 0vw;
 }

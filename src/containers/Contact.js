@@ -6,7 +6,7 @@ const Contact = () => (
     <Navbar />
     <form className="container">
       <div className="row">
-        <div className="col">
+        <div className="col-xs-12 col-sm-12">
           <div className="form-group">
             <label for="name">Name:</label>
             <input
@@ -17,7 +17,7 @@ const Contact = () => (
             />
           </div>
         </div>
-        <div className="col">
+        <div className="col-xs-12 col-sm-12">
           <div className="form-group">
             <label for="emailAd">Email Address:</label>
             <input
@@ -29,7 +29,7 @@ const Contact = () => (
           </div>
         </div>
       </div>
-      <div className="col">
+      <div className="col-xs-12 col-sm-12">
         <div className="form-group">
           <label for="message">Message:</label>
           <textarea
