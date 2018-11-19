@@ -1,0 +1,24 @@
+span.landingContent {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    left: 5vw;
+    right: 5vw;
+}
+
+button.btn.btn-primary {
+    margin: 0.3rem;
+}
+
+.row {
+    margin: 0 !important;
+}
+
+@media (max-width: 575px){
+    div.section-personal, div.section-technical, div.section-education, div.section-experience {
+        font-size: 0.7rem;
+    }
+    h3 {
+        font-size: 1.25rem !important;
+    }
+}
